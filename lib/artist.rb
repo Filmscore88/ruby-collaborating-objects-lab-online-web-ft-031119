@@ -38,7 +38,7 @@ end
 
 def self.find(name)
  @@all.detect {|artists| artists.name == name}
- binding.pry
+
 end  
 
 
